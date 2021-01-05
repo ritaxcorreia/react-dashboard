@@ -1,7 +1,6 @@
-import ./MiniCard.css
-
+import "./MiniCard.css";
 
 function MiniCard(props) {
-    //return
+	//return
 }
 export default MiniCard;

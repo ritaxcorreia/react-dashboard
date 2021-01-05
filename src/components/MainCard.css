@@ -1,5 +1,4 @@
 .container {
-	display: grid;
 	margin: 20px auto;
 	width: 250px;
 	height: auto;
@@ -19,11 +18,12 @@
 .container.instagram {
 	border-top-width: 4px;
 	border-top-style: solid;
-	border-top-color: linear-gradient(
+	border-top-color: hsl(37, 97%, 70%);
+	/* border-top-color: linear-gradient(
 		to right,
 		hsl(37, 97%, 70%),
 		hsl(329, 70%, 58%)
-	);
+	); */
 }
 
 .container.youtube {
@@ -53,14 +53,22 @@
 .big-stat {
 	color: hsl(230, 17%, 14%);
 	font-size: 3rem;
+	margin: 0;
 }
 
 .followers-text {
 	color: hsl(228, 12%, 44%);
 	font-size: 0.7rem;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 	font-weight: normal;
+	margin-top: 0;
+	padding-bottom: 5px;
+}
+
+.daily-stats {
+	height: 50px;
+	padding-bottom: 5px;
 }
 
 .daily-count {
