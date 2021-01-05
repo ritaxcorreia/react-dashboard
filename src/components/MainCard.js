@@ -5,7 +5,7 @@ function MainCard(props) {
 		<article className={`container ${props.service}`}>
 			<div>
 				<img
-					className="icon"
+					className="main-icon"
 					src={`./images/icon-${props.service}.svg`}
 					alt={`${props.service} icon`}
 				/>

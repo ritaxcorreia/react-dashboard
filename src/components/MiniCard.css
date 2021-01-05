@@ -1,0 +1,56 @@
+.mini-container {
+	margin: 0px auto;
+	width: 250px;
+	height: auto;
+	background-color: hsl(227, 47%, 96%);
+	border-radius: 7px;
+	text-align: center;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: bottom;
+	color: hsl(228, 12%, 44%);
+	margin: 20px 0 0 0;
+	font-size: 0.85rem;
+}
+
+.mini-icon {
+	display: inline-block;
+
+	margin: 10px 20px;
+	padding: 10px;
+	float: right;
+}
+
+.overview-stats {
+	height: 50px;
+}
+
+.today-count {
+	display: inline-block;
+	color: hsl(230, 17%, 14%);
+	font-size: 2rem;
+	margin: 0;
+}
+
+.mini-arrow {
+	vertical-align: middle;
+	display: inline-block;
+	padding-right: 3px;
+}
+
+.percentage {
+	display: block;
+	font-size: 0.7rem;
+	font-weight: bold;
+	float: right;
+}
+
+.percentage.up {
+	color: hsl(163, 72%, 41%);
+}
+
+.percentage.down {
+	color: hsl(356, 69%, 56%);
+}
