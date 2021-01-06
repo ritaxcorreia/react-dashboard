@@ -65,7 +65,7 @@ function App() {
 				<MiniCard
 					title="Likes"
 					service="instagram"
-					movement="down"
+					movement="up"
 					todayCount={5462}
 					percentage={2257}
 				/>
