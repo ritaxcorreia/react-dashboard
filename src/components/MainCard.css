@@ -80,8 +80,9 @@
 
 .arrow {
 	vertical-align: middle;
-	display: inline-block;
+	display: inline;
 	padding-right: 3px;
+	padding-top: 2px;
 }
 
 .daily-count.up {

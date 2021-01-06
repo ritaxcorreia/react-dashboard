@@ -1,7 +1,11 @@
 .grid-container {
 	display: grid;
-	grid-template-columns: 250px 250px 250px 250px;
+	/* grid-template-columns: 250px 250px 250px 250px; */
+	grid-template-columns: repeat(4, 250px);
 	grid-column-gap: 24px;
 	grid-row-gap: 24px;
-	margin: 30px 50px;
+	margin: auto;
+	width: 100%;
+	/* object-fit: cover; */
+	align-items: flex-start;
 }

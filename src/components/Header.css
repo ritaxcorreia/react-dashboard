@@ -1,11 +1,11 @@
 .heading {
 	color: hsl(230, 17%, 14%);
 	font-size: 2rem;
-	margin: 4% 5% 1% 5%;
+	margin-bottom: 0.2em;
 }
 
 .total {
 	color: hsl(228, 12%, 44%);
-	margin: 0 5% 0 5%;
+	margin-top: 0;
 	font-size: 0.8rem;
 }

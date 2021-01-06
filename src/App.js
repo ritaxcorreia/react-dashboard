@@ -6,7 +6,8 @@ import MiniCard from "./components/MiniCard";
 
 function App() {
 	return (
-		<div className="bg-layer">
+		<>
+			{/* <div className="bg-layer"> */}
 			<Header
 				headerTitle="Social Media Dashboard"
 				totalFollowers="23,004"
@@ -105,7 +106,8 @@ function App() {
 					percentage={12}
 				/>
 			</div>
-		</div>
+			{/* </div> */}
+		</>
 	);
 }
 
