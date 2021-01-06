@@ -7,44 +7,45 @@
 	text-align: center;
 }
 
+.flex-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 26px 8px 22px;
+}
+
 .title {
-	display: inline-block;
-	vertical-align: bottom;
 	color: hsl(228, 12%, 44%);
-	margin: 20px 0 0 0;
 	font-size: 0.85rem;
 }
 
 .mini-icon {
-	display: inline-block;
-
-	margin: 10px 20px;
-	padding: 10px;
-	float: right;
+	width: 20px;
 }
 
-.overview-stats {
-	height: 50px;
+.flex-stats {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 26px 16px 22px;
 }
 
 .today-count {
-	display: inline-block;
 	color: hsl(230, 17%, 14%);
 	font-size: 2rem;
 	margin: 0;
 }
 
 .mini-arrow {
-	vertical-align: middle;
-	display: inline-block;
 	padding-right: 3px;
+	padding-bottom: 2px;
+	display: inline;
 }
 
 .percentage {
-	display: block;
+	display: inline;
 	font-size: 0.7rem;
 	font-weight: bold;
-	float: right;
 }
 
 .percentage.up {
