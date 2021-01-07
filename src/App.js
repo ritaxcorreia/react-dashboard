@@ -106,7 +106,6 @@ function App() {
 					percentage={12}
 				/>
 			</div>
-			{/* </div> */}
 		</>
 	);
 }
