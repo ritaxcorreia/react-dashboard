@@ -3,3 +3,27 @@
 	font-size: 1.5rem;
 	padding-top: 8px;
 }
+
+@media only screen and (max-width: 768px) {
+	.overview-title {
+		font-size: 1.4rem;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.overview-title {
+		font-size: 1.3rem;
+	}
+}
+
+@media only screen and (max-width: 358px) {
+	.overview-title {
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 318px) {
+	.overview-title {
+		font-size: 1rem;
+	}
+}

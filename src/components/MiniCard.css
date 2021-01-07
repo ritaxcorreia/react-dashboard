@@ -1,10 +1,15 @@
 .mini-container {
-	margin: 0px auto;
-	width: 250px;
+	/* margin: 0px auto; */
+	/* max-width: 400px; */
 	height: auto;
 	background-color: hsl(227, 47%, 96%);
 	border-radius: 7px;
 	text-align: center;
+}
+
+.mini-container:hover {
+	background-color: #e0e3f0;
+	cursor: pointer;
 }
 
 .flex-header {

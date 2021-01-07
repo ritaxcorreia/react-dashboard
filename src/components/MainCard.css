@@ -1,7 +1,7 @@
 .container {
-	margin: 20px auto;
-	width: 250px;
-	height: auto;
+	/* margin: 20px auto;
+	width: 250px; */
+
 	background-color: hsl(227, 47%, 96%);
 	border-radius: 7px;
 	text-align: center;

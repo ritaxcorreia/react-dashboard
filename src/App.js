@@ -7,7 +7,7 @@ import MiniCard from "./components/MiniCard";
 function App() {
 	return (
 		<>
-			{/* <div className="bg-layer"> */}
+			{/* ADD NEW HEADER DIV HERE CONTAINING 2 COMPONENTS*/}
 			<Header
 				headerTitle="Social Media Dashboard"
 				totalFollowers="23,004"
