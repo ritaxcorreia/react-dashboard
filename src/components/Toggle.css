@@ -1,0 +1,40 @@
+.toggle {
+	-webkit-appearance: none;
+	position: relative;
+	width: 48px;
+	height: 24px;
+	background-color: hsl(230, 22%, 74%);
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+	top: 26px;
+	right: 0;
+	display: flex;
+}
+
+.toggle:before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	-webkit-appearance: none;
+	outline: none;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.toggle:checked {
+	background-image: linear-gradient(
+		90deg,
+		rgba(55, 143, 230, 1) 0%,
+		rgba(62, 218, 130, 1) 100%
+	);
+}
+
+.toggle:checked:before {
+	transform: translate(120%);
+	background-color: hsl(230, 17%, 14%);
+}

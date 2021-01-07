@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Toggle from "./components/Toggle";
 import MainCard from "./components/MainCard";
 import Overview from "./components/Overview";
 import MiniCard from "./components/MiniCard";
@@ -7,11 +8,13 @@ import MiniCard from "./components/MiniCard";
 function App() {
 	return (
 		<>
-			{/* ADD NEW HEADER DIV HERE CONTAINING 2 COMPONENTS*/}
-			<Header
-				headerTitle="Social Media Dashboard"
-				totalFollowers="23,004"
-			/>
+			<header className="flex-heading">
+				<Header
+					headerTitle="Social Media Dashboard"
+					totalFollowers="23,004"
+				/>
+				<Toggle />
+			</header>
 			<div className="grid-container">
 				<MainCard
 					service="facebook"

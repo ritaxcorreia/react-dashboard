@@ -27,3 +27,7 @@
 		grid-gap: 18px;
 	}
 }
+
+.flex-heading {
+	display: flex;
+}
