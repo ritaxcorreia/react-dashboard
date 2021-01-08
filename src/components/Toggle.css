@@ -9,7 +9,7 @@
 	font-size: 0.9rem;
 }
 
-.toggle {
+/* .toggle {
 	-webkit-appearance: none;
 	position: relative;
 	width: 48px;
@@ -20,17 +20,17 @@
 	outline: none;
 	top: 6px;
 	right: 0;
-}
+} */
 
 .toggle:before {
 	content: "";
 	position: absolute;
 	top: 2px;
-	left: 2px;
+	left: 3px;
 	-webkit-appearance: none;
 	outline: none;
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 	background-color: white;
 	border-radius: 50%;
 	cursor: pointer;
