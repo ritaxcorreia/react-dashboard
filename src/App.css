@@ -1,4 +1,4 @@
-/* Desktop screens */
+/* Grid Desktop screens */
 .grid-container {
 	display: grid;
 	/* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
@@ -7,7 +7,7 @@
 	padding-bottom: 30px;
 }
 
-/* Mobile screens */
+/* Grid Mobile screens */
 @media only screen and (max-width: 900px) {
 	.grid-container {
 		grid-gap: 12px;
@@ -28,6 +28,9 @@
 	}
 }
 
-.flex-heading {
+/* Header flexbox */
+.header-container {
 	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
 }
