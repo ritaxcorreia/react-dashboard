@@ -1,3 +1,12 @@
+/* Header flexbox */
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 30px;
+	flex-wrap: wrap;
+}
+
 /* Grid Desktop screens */
 .grid-container {
 	display: grid;
@@ -26,11 +35,4 @@
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 18px;
 	}
-}
-
-/* Header flexbox */
-.header-container {
-	display: flex;
-	align-items: baseline;
-	justify-content: space-between;
 }

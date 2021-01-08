@@ -1,12 +1,11 @@
 .toggle-group {
 	display: flex;
-	justify-content: flex-end;
 	align-items: baseline;
+	justify-content: flex-end;
 }
 
 .dark-mode-text {
 	color: hsl(228, 12%, 44%);
-	margin-top: 0;
 	font-size: 0.9rem;
 }
 
@@ -19,7 +18,7 @@
 	border-radius: 20px;
 	cursor: pointer;
 	outline: none;
-	top: 26px;
+	top: 6px;
 	right: 0;
 }
 
@@ -48,4 +47,12 @@
 .toggle:checked:before {
 	transform: translate(120%);
 	background-color: hsl(230, 17%, 14%);
+}
+
+@media only screen and (max-width: 560px) {
+	.toggle-group {
+		justify-content: space-between;
+		padding-top: 6px;
+		width: 100%;
+	}
 }

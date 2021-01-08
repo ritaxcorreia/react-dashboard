@@ -8,7 +8,7 @@ import MiniCard from "./components/MiniCard";
 function App() {
 	return (
 		<>
-			<header className="flex-heading">
+			<header className="header-container">
 				<Header
 					headerTitle="Social Media Dashboard"
 					totalFollowers="23,004"

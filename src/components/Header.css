@@ -10,6 +10,10 @@
 	font-size: 0.8rem;
 }
 
+.flex-heading {
+	width: auto;
+}
+
 @media only screen and (max-width: 500px) {
 	.heading {
 		font-size: 1.6rem;
@@ -25,5 +29,16 @@
 @media only screen and (max-width: 318px) {
 	.heading {
 		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.total {
+		border-bottom: solid 1px gray;
+		padding-bottom: 22px;
+	}
+
+	.flex-heading {
+		width: 100%;
 	}
 }
