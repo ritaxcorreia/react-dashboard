@@ -12,24 +12,19 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.bodyAlt};
   }
 
-  .heading {
+  .heading, .overview-title, .big-stat, .today-count {
     color: ${({ theme }) => theme.text};
   }
 
-  .total {
-    color: ${({ theme }) => theme.totalColor};
+  .total, .social-handle, .followers-text, .title {
+    color: ${({ theme }) => theme.smallTextColor};
   }
 
-  .overview-title {
-    color: ${({ theme }) => theme.text};
+  .container, .mini-container {
+    background-color: ${({ theme }) => theme.cardBg};
   }
 
-  .container {
-    background-color: ${({ theme }) => theme.CardBg};
+  .mini-container:hover, .container:hover {
+    background-color: ${({ theme }) => theme.cardHover};
   }
-
-  .mini-container {
-    background-color: ${({ theme }) => theme.CardBg};
-  }
-
   `;
