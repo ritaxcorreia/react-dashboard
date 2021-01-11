@@ -10,7 +10,26 @@ export const GlobalStyles = createGlobalStyle`
 
   body::before {
     background: ${({ theme }) => theme.bodyAlt};
+  }
+
+  .heading {
     color: ${({ theme }) => theme.text};
+  }
+
+  .total {
+    color: ${({ theme }) => theme.totalColor};
+  }
+
+  .overview-title {
+    color: ${({ theme }) => theme.text};
+  }
+
+  .container {
+    background-color: ${({ theme }) => theme.CardBg};
+  }
+
+  .mini-container {
+    background-color: ${({ theme }) => theme.CardBg};
   }
 
   `;
