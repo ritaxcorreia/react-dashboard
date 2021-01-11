@@ -11,9 +11,11 @@ import { lightTheme, darkTheme } from "./components/Themes";
 import { useDarkMode } from "./components/useDarkMode";
 
 function App() {
-	const [theme, themeToggler] = useDarkMode();
+	const [theme, themeToggler, mountedComponent] = useDarkMode();
 
 	const themeMode = theme === "light" ? lightTheme : darkTheme;
+
+	if (!mountedComponent) return <div />;
 
 	return (
 		<>
@@ -26,7 +28,6 @@ function App() {
 							totalFollowers="23,004"
 						/>
 						<Toggle theme={theme} toggleTheme={themeToggler} />
-						{/* <button onClick={themeToggler}>Switch Theme</button> */}
 					</header>
 					<div className="grid-container">
 						<MainCard
