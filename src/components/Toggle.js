@@ -17,8 +17,8 @@ import styled from "styled-components";
 const Input = styled.input`
 	-webkit-appearance: none !important;
 	-moz-appearance: none;
-	appearance: none;
 	background: ${({ theme }) => theme.background};
+	border-color: ${({ theme }) => theme.background};
 	color: ${({ theme }) => theme.text};
 	position: relative;
 	width: 48px;

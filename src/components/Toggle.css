@@ -30,7 +30,7 @@
 	position: absolute;
 	top: 2px;
 	left: 3px;
-	appearance: none;
+
 	outline: none;
 	width: 18px;
 	height: 18px;
@@ -42,8 +42,13 @@
 .toggle:checked {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	appearance: none;
+
 	background-image: linear-gradient(
+		90deg,
+		rgba(55, 143, 230, 1) 0%,
+		rgba(62, 218, 130, 1) 100%
+	);
+	border-image: linear-gradient(
 		90deg,
 		rgba(55, 143, 230, 1) 0%,
 		rgba(62, 218, 130, 1) 100%
