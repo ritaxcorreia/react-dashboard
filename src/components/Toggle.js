@@ -18,11 +18,11 @@ const Input = styled.input`
 	-webkit-appearance: none !important;
 	-moz-appearance: none;
 	background: ${({ theme }) => theme.background};
-	border-color: ${({ theme }) => theme.background};
+	border: none;
 	color: ${({ theme }) => theme.text};
 	position: relative;
 	width: 48px;
-	height: 23px;
+	height: 24px;
 	background-color: hsl(230, 22%, 74%);
 	border-radius: 20px;
 	cursor: pointer;
