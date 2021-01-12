@@ -15,9 +15,11 @@ import React from "react";
 import styled from "styled-components";
 
 const Input = styled.input`
+	-webkit-appearance: none !important;
+	-moz-appearance: none;
+	appearance: none;
 	background: ${({ theme }) => theme.background};
 	color: ${({ theme }) => theme.text};
-	-webkit-appearance: none;
 	position: relative;
 	width: 48px;
 	height: 23px;

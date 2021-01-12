@@ -23,11 +23,14 @@
 } */
 
 .toggle:before {
+	-webkit-appearance: none !important;
+	-moz-appearance: none;
+	appearance: none;
 	content: "";
 	position: absolute;
 	top: 2px;
 	left: 3px;
-	-webkit-appearance: none;
+	appearance: none;
 	outline: none;
 	width: 18px;
 	height: 18px;
@@ -37,6 +40,9 @@
 }
 
 .toggle:checked {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	background-image: linear-gradient(
 		90deg,
 		rgba(55, 143, 230, 1) 0%,
@@ -45,6 +51,9 @@
 }
 
 .toggle:checked:before {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	transform: translate(120%);
 	background-color: hsl(230, 17%, 14%);
 }
