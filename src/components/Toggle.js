@@ -34,8 +34,15 @@ const Input = styled.input`
 const Toggle = ({ theme, toggleTheme }) => {
 	return (
 		<div className="toggle-group">
-			<h2 className="dark-mode-text">Dark Mode</h2>
-			<Input className="toggle" type="checkbox" onClick={toggleTheme} />
+			<label htmlFor="toggle" className="dark-mode-text">
+				Dark Mode
+			</label>
+			<Input
+				id="toggle"
+				className="toggle"
+				type="checkbox"
+				onClick={toggleTheme}
+			/>
 		</div>
 	);
 };

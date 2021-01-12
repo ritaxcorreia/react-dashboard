@@ -16,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
   }
 
-  .total, .social-handle, .followers-text, .title {
+  .total, .social-handle, .followers-text, .title, .dark-mode-text {
     color: ${({ theme }) => theme.smallTextColor};
   }
 

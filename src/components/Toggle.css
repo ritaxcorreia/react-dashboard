@@ -7,6 +7,7 @@
 .dark-mode-text {
 	color: hsl(228, 12%, 44%);
 	font-size: 0.9rem;
+	font-weight: bold;
 }
 
 /* .toggle {
