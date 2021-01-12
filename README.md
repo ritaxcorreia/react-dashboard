@@ -2,4 +2,4 @@
 
 https://ui-dashboard-react.netlify.app/
 
-I used styled-components for the light & dark themes, created a custom React Hook (useDarkMode) to set the theme switching as well as handling state management 🚀
+Using styled-components for the light & dark themes, created a custom React Hook (useDarkMode) to set the theme switching functionality as well as handling state management 🚀
